@@ -1,0 +1,8 @@
+Flask
+requests
+google-auth
+google-auth-oauthlib
+twilio
+python-dotenv
+nohup
+ngrok

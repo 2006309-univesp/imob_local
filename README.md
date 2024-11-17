@@ -39,3 +39,4 @@ nohup python run.py &
 Para rodar localmente no Visual Studio Code é necessário o ngrok.
 
 OBS: coloque os dados de autenticação no arquivo .env
+Deixe o seu arquivo de autenticação do google .json dentro da pasta /config

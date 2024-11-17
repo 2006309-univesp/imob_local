@@ -1,11 +1,9 @@
 from twilio.rest import Client
 
-# Configurações da conta Twilio
-#TWILIO_ACCOUNT_SID = 'AC864dce0a919bfcfcbe9d3e3ef5fc2734'
-#TWILIO_AUTH_TOKEN = '05e92ede08f26e401a4dec99c6c0cc6b'
-TWILIO_ACCOUNT_SID = 'AC61af2b33254e2f65fca4d50d50176711'
-TWILIO_AUTH_TOKEN = '586041219c9aec5db3b8e2f5a6f87ce1'
-TWILIO_WHATSAPP_NUMBER = '+14155238886'
+
+TWILIO_ACCOUNT_SID = 'Coloque_aqui_sua_SID_do_Twilio'
+TWILIO_AUTH_TOKEN = 'Coloque_Seu_AuthToken_aqui'
+TWILIO_WHATSAPP_NUMBER = 'Coloque_aqui_o_whatsapp_do_twilio'
 
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
